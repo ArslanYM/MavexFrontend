@@ -1,0 +1,157 @@
+body{
+  margin:0;
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+ 
+}
+
+h1{
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  padding-top: 120px;
+  width: 80%;
+  margin: auto;
+  
+}
+
+
+p{
+  font-size: large;
+  color: white;
+  padding-top: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  width: 50%;
+  margin: auto;
+line-height: 2;
+}
+
+
+
+
+
+
+
+
+/* navbvar */
+
+
+.big-head{
+ background-color: black;
+ padding-top: 2%;
+ padding-bottom: 6%;
+
+
+
+}
+.header{
+
+position: relative;
+   width: 95%;
+   padding: 1% 0;
+   border-radius: 15px;
+   margin: 0 auto;
+   /* opacity: 70%; */
+   background: rgb(11,11,11);
+   background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(69,66,66,1) 49%, rgba(119,111,111,0.9) 75%, rgba(150,139,139,0.8) 93%, rgba(161,148,148,0.6) 100%, rgba(80,71,71,1) 100%, rgba(116,64,65,1) 100%);
+
+
+}
+
+
+.header ul {
+  text-align: center;
+  margin-bottom:0%;
+  overflow: hidden;
+}
+.header ul li{
+  list-style: none;
+  display: inline-block;
+  
+}
+.header ul li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  
+}
+
+
+
+
+
+
+
+
+/* navbutton */
+.line-ov{
+  font-size: 1.5rem;
+  color: #ff4c68;
+position: absolute;
+left: 34%;
+top: 2%;
+}
+.main-btn-li{float: right;
+  margin-right: 10px;}
+
+
+.main-btn1 {
+float: left;
+margin-top: 10px;
+
+}
+.main-btn2{
+  width: 200px;
+  border-style: none;
+  border-color: none;
+  background: rgb(11,11,11);
+  background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(46,46,226,1) 0%, rgba(48,143,21,1) 29%, rgba(127,53,32,1) 66%, rgba(235,4,4,1) 100%, rgba(80,71,71,1) 100%, rgba(116,64,65,1) 100%);
+}
+.sec-btns{
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+
+
+/* body */
+
+.oranges{
+  color: #ff4c68;
+}
+
+/* container */
+.big-container{
+background-image: url(/images/pexels-tranmautritam-233129.jpg);
+background-size: cover;
+height: 500px;
+text-align: center;
+position: relative;
+
+}
+
+.small-container{
+  height: 100%;
+  background: rgba(0,0,0, .5);
+}
+.planetred{
+
+
+  height: 500px;
+  width: 500px;
+  right: -200px;
+  top: -100px;
+  position: absolute;
+}
+
+#logo{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
